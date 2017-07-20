@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  background-color: #white
+}
+
+body > div {
+  margin-top: 0;
+  margin-bottom: 1.8em;
+  background: #ffff;
+}
+
+
+
+
+
+
+
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
