@@ -1,21 +1,132 @@
-body {
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    padding: 0px 90px 10px 90px;
+    background-image: url(img/bg.jpg);
+}
+
+body > div{
+    background: white;
+    border: 3px solid #ffD24A;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.2 );
+
+}
+
+a{
+    font-weight: bold;
+    color: #1fabe5;
+}
+
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+
+ul {
+  font-weight: bold;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 3em;
+}
+
+
+a#logo >img{
+  height: auto;
+  width: auto;
+}
+
+.main_navigation a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px;
+  margin: .5px;
+  padding: 10px;
+}
+
+#page_content{
+  padding: 10px 25px;
+}
+
+#page_content >section{
+    border-bottom: 5px solid #eee;
+
+}
+
+table{
+  border: 1px solid #1fabe5;
+  padding: 15px;
+  border-collapse: collapse;
+}
+
+
+table, th, td{
+  border: 1px solid #1fabe5;
+  padding: 15px;
+}
+
+
+thead{
+  color: white;
+  background-color: #1fabe5;
+}
+
+tr, img{
+  height: 50px;
+  width: 50px;
+}
+
+form{
+  background-color: #eee;
+  padding: 1em;
+  font-weight: bold;
+}
+
+form >div.name{
+  background-color: #ff8523;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+  padding: 10px 40px 10px 20px;
+  border-radius: 5px;
+}
+
+input#first_name{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+input#last_name{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+div.city_container{
+  font-weight: bold;
+}
+
+textarea#bio{
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 90%;
-  background-color: #white
+  font-weight: bold;
+  border: 1px solid #1fabe5;
 }
 
-body > div {
-  margin-top: 0;
-  margin-bottom: 1.8em;
-  background: #ffff;
+input#submit_button{
+  background-color: #1fabe5;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 1em;
 }
-
-
-
-
-
-
-
 
 /*
 font info:
